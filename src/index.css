@@ -28,20 +28,20 @@ body {
 #root {
   width: 100%;
 }
-.contenedor {
+.container {
   display: flex;
   align-items: center;
-  padding-top: 10rem;
+  padding-top: 22rem;
   flex-direction: column;
 }
 
-.frase {
-  padding: 3rem;
+.phrase {
+  padding: 2rem;
   border-radius: .5rem;
   background-color: rgba(255,255,255,1);
   max-width:800px;
 }
-.frase h1::before {
+.phrase h1::before {
   content: open-quote;
   font-size:10rem;
   color: black;
@@ -49,13 +49,13 @@ body {
   left: -1rem;
   top: -2rem;
 }
-.frase h1 {
+.phrase h1 {
   font-family: 'Staatliches', cursive;
   text-align:center;
   position: relative;
   padding-left: 4rem;
 }
-.frase p {
+.phrase p {
   font-family: 'Handlee', cursive;
   font-size: 1.6rem;
   color: #666;
